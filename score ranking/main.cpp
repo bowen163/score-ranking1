@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#define number =10
+using namespace std;
+int main() {
+    int a[number]={0};
+    int *ptr;
+    *ptr=a;
+    for(int i=0;i<number;i++)
     return 0;
 }
